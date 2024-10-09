@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.busMainArea {
+    /* height: 30vh;
+    width: 95vw; */
+    /* width: 90vw; */
+    display: grid;
+    grid-template-rows: 10vh 15vh 8vh;
+    grid-template-columns: 3vw 15vw 10vw 15vw 10vw 12vw 12vw 3vw;
+
+    background-color: wheat;
+}
+
+.box1, .box2, .box3 {
+    /* height: 100%;
+    width: 100%; */
+    background-color: red;
+    border-color: black;
+    border: solid;
+    display: flex;
+    /* color: white; */
+}
+
+.box1 {
+    grid-row: 1 / 4;
+    grid-column: 1 / 4;
+}
+
+.box2 {
+    grid-row: 1 / 4;
+    grid-column: 4 / 7;
+}
+
+.box3 {
+    grid-row: 1 / 4;
+    grid-column: 7 / 10;
+}
