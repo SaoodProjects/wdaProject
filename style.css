@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    font-size: 16px;
+    
+    font-weight: 550;
+    font-family: sans-serif;
+}
+body{
+    padding:1vh 8vw;
+}
+.header{
+    height:10vh;
+    position:sticky;
+   
+   display: flex;
+   justify-content:space-around;
+}
+.logo, .sign{
+    width:20%;
+    height:100%;
+    
+
+}
+.navbutton{
+    width:50%;
+    height:100%;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.navitem, .language, .signin{
+    background-color: white;
+    border-style: none;
+    width:100px;
+    height:40px;
+    border-radius: 20px;
+}
+.navitem:hover, .language:hover{
+    background-color: #f0f0f0;
+}
+.sign{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+}
+.signin{
+    background-color: black;
+    color:white;
+}
+.img1{
+    width:23px;
+    border-right: 3px solid #f0f0f0;
+    padding-right:8px;
+    margin-right: 4px;
+}
+.language{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.signin:hover{
+    background-color: #333333;
+}
+.logo img{
+    width:150px;
+    height:50px;
+}
+.logo{
+    margin-top:8px;
+}
+.changetext{
+    width:100%;
+    height:10vh;
+    margin-top:5vh;
+    font-size: 48px;
+    text-align:center
+}
+.services{
+    margin:4vh auto;
+    display:flex;
+    width:50%;
+    justify-content:center;
+    align-items: center;
+}
+.serviceitems{
+    border-style:none;
+    background-color: white;
+    padding:10px;
+}
+.serviceitems:hover{
+    border-bottom: 1px solid black;
+}
+
+
