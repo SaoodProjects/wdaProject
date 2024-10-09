@@ -1,0 +1,58 @@
+.to-content {
+    width: 90%;
+    height: 90%;
+}
+
+.to_top-text-box {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    margin-top: 1.0vh;
+    margin-bottom: 0.3vh;
+}
+
+.to_top-text {
+    /* display: inline; */
+    /* margin-left: 1rem; */
+    /* padding-top: 1rem; */
+    display: flex;
+    justify-content: left;
+    width: 100%;
+
+    padding-left: 0.4vh;
+}
+
+.to_input-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 1rem; */
+    /* margin-right: 1rem; */
+}
+
+#to_input {
+    width: 100%;
+    height: 5vh;
+    border: none;
+
+    background-color: transparent;
+
+    font-size: 4vh;
+
+    /* margin-right: 1rem; */
+}
+
+.to_bottom-text {
+    /* display: inline; */
+    /* margin-left: 1rem; */
+    /* padding-top: 1rem; */
+
+    width: 100%;
+    display: flex;
+    justify-content: left;
+
+    /* margin-top: 1vh; */
+
+    padding-left: 0.4vh;
+}
