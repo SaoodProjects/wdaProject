@@ -7,6 +7,9 @@
     /* height: 30vh;
     width: 95vw; */
     /* width: 90vw; */
+
+    width: 96%;
+
     display: grid;
     grid-template-rows: 0vh 15vh 8vh;
     grid-template-columns: 3vw 15vw 10vw 15vw 10vw 10vw 10vw 3vw;

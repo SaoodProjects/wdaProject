@@ -111,20 +111,23 @@ body{
 }
 .footer1{
     height:55vh;
-    width:100%;
+    width:94.69%;
     padding: 4vh;
-    background-color: aliceblue;
+    background-color: #D1B26F;
     border-radius: 5vh;
+    /* border-style: solid; */
     position:relative;
     display: flex;
     top:18vh;
+    /* left:8vw; */
+   
     
     
 }
 .footer2{
     height:70vh;
-    width:98.8vw;
-    background-color: darkblue;
+    width:98.93vw;
+    background-color: #3B4A6B;
     margin:-1vh -8vw;
     border-top-left-radius: 4vh;
     border-top-right-radius: 4vh;
@@ -133,15 +136,29 @@ body{
 .f1{
     height:100%;
     width:35%;
-    background-color: darkblue;
+    background-color: #E0E0E0;
     border-radius: 4vh;
-    margin-right: 4vh;
-    
+    margin-right: 10vh;
+    /* margin-left: 5vh; */
     
 }
 .f2 , .f3{
     height:100%;
     width:30%;
-    border:1px solid black;
-    margin-right:4vh;
+    
+    margin-right:5vh;
+}
+.f21 , .f22 , .f31 , .f32{
+    width:100%;
+    height:40%;
+    background-color: #E0E0E0;
+    border-radius: 4vh;
+    /* border-style: solid; */
+    /* border-color: #F4D35E; */
+}
+.f21, .f31{
+    margin-bottom: 8.5vh;
+}
+.f2{
+    margin-right:10vh;
 }
