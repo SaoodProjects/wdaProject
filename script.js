@@ -1,5 +1,5 @@
 let waiting = document.querySelector(".changetext");
-let services = document.querySelectorAll(".services button");
+let services = document.querySelectorAll(".serviceitems");
 
 let contents = {
     buses: document.querySelector(".contentArea")
@@ -20,7 +20,6 @@ services.forEach((service) => {
 
             if(service.textContent === "Flights"){
                 waiting.textContent = "Find the best flights";
-                contents.buses.style.display = "block";
             }
             else if(service.textContent === "Hotels"){
                 waiting.textContent = "this is hotel";
@@ -30,6 +29,7 @@ services.forEach((service) => {
             }
             else if(service.textContent === "Buses"){
                 waiting.textContent = "this is bus";
+                contents.buses.style.display = "block";
             }
             else {
                 waiting.textContent = "this is airport transfer";
