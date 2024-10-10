@@ -26,6 +26,7 @@ services.forEach((service) => {
             }
             else if(service.textContent === "Trains"){
                 waiting.textContent = "this is trains";
+                
             }
             else if(service.textContent === "Buses"){
                 waiting.textContent = "this is bus";
