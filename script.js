@@ -2,7 +2,8 @@ let waiting = document.querySelector(".changetext");
 let services = document.querySelectorAll(".serviceitems");
 
 let contents = {
-    buses: document.querySelector(".contentArea")
+    buses: document.querySelector(".contentArea"),
+    trains: document.querySelector(".masterdiv")
 }
 
 
@@ -26,7 +27,7 @@ services.forEach((service) => {
             }
             else if(service.textContent === "Trains"){
                 waiting.textContent = "this is trains";
-                
+                contents.trains.style.display = "block";
             }
             else if(service.textContent === "Buses"){
                 waiting.textContent = "this is bus";
