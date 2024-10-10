@@ -8,6 +8,7 @@
 }
 body{
     padding:1vh 8vw;
+    
 }
 .header{
     height:10vh;
@@ -17,6 +18,8 @@ body{
    justify-content:space-around;
    background-color: white;
    z-index: 1000;
+   margin-left:-8vw;
+   margin-right: -8vw;
    
 }
 .logo, .sign{
@@ -164,4 +167,10 @@ body{
 }
 .f2{
     margin-right:10vh;
+}
+.logo{
+    margin-left:8vw;
+}
+.sign{
+    margin-right: 8vw;
 }
