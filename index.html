@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="../wdaProject/bus/toInput.css">
     <link rel="stylesheet" href="../wdaProject/bus/travelDateInput.css">
     <!-- Shreyansh CSS links END -->
+
+    <!-- Ahish CSS links -->
+     <link rel="stylesheet" href="wait.css">
+    <!-- Ahish CSS links END -->
 </head>
 
 <body>
@@ -129,8 +133,56 @@
         </div>
     </div>
     </div>
-
     <!-- Shreyansh Bus code END -->
+
+    <!-- Ahish Train code -->
+    <div class="masterdiv"><!--this is the master div-->
+        
+        <input type="text" class="from_textbox" placeholder="from">
+
+        <input type="text" class="to_textbox" placeholder="to">
+
+        <input type="date" class="date" >
+
+        <input type="number" class="passenger" min="1" placeholder="     number of passenger">
+        
+            <label for="classintrain"></label>
+            <select id="classintrain" class="classintrain">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+            </select>
+
+        <br><br>
+        
+        <div class="travelfor"><span style="position: relative; top:17px;">I am travelling for</span></div>
+        
+        
+        <label for="travelreason"></label>
+        <select id="travelreason" class="travelreason">
+        <option value="select" class="optionsoftravelreason">select</option>
+        <option value="work" class="optionsoftravelreason">work</option>
+        <option value="leisure" class="optionsoftravelreason">leisure</option>
+        <option value="medical" class="optionsoftravelreason">medical</option>
+        </select>
+
+        <div class="payment"><span style="position: relative;top:15px;">paywith</span></div>
+        
+        
+        <label for="paymentoptions"></label>
+            <select id="paymentoptions" class="paymentoptions">
+            <option value="select">select</option>
+            <option value="cash">cash</option>
+            <option value="tranzey wallet">tranzey wallet</option>
+            
+            </select>
+
+        <button class="searchbutton">search</button>
+
+    </div>
+    <!-- Ahish Train code END -->
+
     <div class="footer1">
         <div class="f1"></div>
         <div class="f2">
