@@ -20,6 +20,8 @@
     width: 100%;
 
     padding-left: 0.4vh;
+
+    opacity: 0.6;
 }
 
 .to_input-box {
@@ -43,6 +45,11 @@
     /* margin-right: 1rem; */
 }
 
+#to_input:focus {
+    outline-style: none;
+    box-shadow: none;
+}
+
 .to_bottom-text {
     /* display: inline; */
     /* margin-left: 1rem; */
@@ -55,4 +62,6 @@
     /* margin-top: 1vh; */
 
     padding-left: 0.4vh;
+
+    opacity: 0.5;
 }

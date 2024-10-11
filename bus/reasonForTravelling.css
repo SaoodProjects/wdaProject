@@ -1,0 +1,94 @@
+.reason-for-travel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: red; */
+
+    border-radius: 5vh;
+
+    height: 75%;
+    width: 100%;
+
+    box-shadow: 0px 0.3vh 8px rgba(0, 0, 0, 0.2);
+
+    display: none;
+}
+
+/* .testing:hover {
+    background-color: #6dff4c9b;
+    cursor: pointer;
+}
+
+.testing:active {
+    opacity: 0.8;
+    cursor: pointer;
+    transform: translateY(2px);
+} */
+
+#promocode_enter {
+    margin-left: 4px;
+    background-color: transparent;
+    
+    width: 100%;
+
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+#promocode_enter:focus {
+    outline-style: none;
+    box-shadow: none;
+}
+
+.promocode_text {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.2vh;
+    padding-right: 1.2vh;
+    padding-top: 1.2vh;
+    padding-bottom: 1.4vh;
+}
+
+.align {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.busOptions {
+    /* background-color: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* width: 100%; */
+
+    border-top-right-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+
+    background-color: #6dff4c;
+
+    border-style: solid;
+    border-width: 2px;
+    border-left: none;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.busOptions:hover {
+    background-color: #6dff4c9b;
+    cursor: pointer;
+}
+
+.busOptions:active {
+    transform: translateY(2px);
+    opacity: 0.8;
+}
+
+.busOptions:focus {
+    outline-style: none;
+    box-shadow: none;
+}
