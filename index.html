@@ -14,17 +14,18 @@
     <link rel="stylesheet" href="../wdaProject/bus/style.css">
     <link rel="stylesheet" href="../wdaProject/bus/toInput.css">
     <link rel="stylesheet" href="../wdaProject/bus/travelDateInput.css">
+    <link rel="stylesheet" href="../wdaProject/bus/reasonForTravelling.css">
     <!-- Shreyansh CSS links END -->
 
     <!-- Ahish CSS links -->
-     <link rel="stylesheet" href="../wdaProject/train.css">
+    <link rel="stylesheet" href="../wdaProject/train.css">
     <!-- Ahish CSS links END -->
 </head>
 
 <body>
-    
+
     <div class="header">
-        
+
         <div class="logo"><img src="images/logo.jpg" alt="logo"></div>
         <div class="navbutton">
             <button class="discover navitem">Discover</button>
@@ -108,23 +109,35 @@
 
                 <div class="bottom-content">
                     <div class="reason-for-travel_area">
-                        <button class="reason-for-travel_box">
-                            <div>
-                                REASON
+                        <div class="reason-for-travel">
+                            <button class="reason-for-travel_box">
+                                Reason for travel
+                            </button>
+                            <div class="reason-for-travel_button">
+                                <select class="busOptions">
+                                    <option>Leisure</option>
+                                    <option>Study</option>
+                                    <option>Medical</option>
+                                </select>
                             </div>
-                        </button>
+                        </div>
                     </div>
                     <div class="promocode_area">
                         <button class="promocode_box">
-                            <div>
-                                PROMOCODE
-                            </div>
+                            <label class="promocode_text">
+                                <div class="align font fontSize">
+                                    Promocode
+                                </div>
+                                <input id="promocode_enter">
+                                <!-- ___ -->
+                                </input>
+                            </label>
                         </button>
                     </div>
                     <div class="search_area">
                         <button class="search_box">
-                            <div>
-                                SEARCH
+                            <div class="font fontSize">
+                                Search
                             </div>
                         </button>
                     </div>
@@ -132,57 +145,66 @@
             </div>
         </div>
     </div>
-    </div>
     <!-- Shreyansh Bus code END -->
 
     <!-- Ahish Train code -->
     <div class="masterdiv"><!--this is the master div-->
-        
+
         <input type="text" class="from_textbox" placeholder="from">
 
         <input type="text" class="to_textbox" placeholder="to">
 
-        <input type="date" class="date" >
+        <input type="date" class="date">
 
         <input type="number" class="passenger" min="1" placeholder="     number of passenger">
-        
-            <label for="classintrain"></label>
-            <select id="classintrain" class="classintrain">
+
+        <label for="classintrain"></label>
+        <select id="classintrain" class="classintrain">
             <option value="option1">Option 1</option>
             <option value="option2">Option 2</option>
             <option value="option3">Option 3</option>
             <option value="option4">Option 4</option>
-            </select>
+        </select>
 
         <br><br>
-        
+
         <div class="travelfor"><span style="position: relative; top:17px;">I am travelling for</span></div>
-        
-        
+
+
         <label for="travelreason"></label>
         <select id="travelreason" class="travelreason">
-        <option value="select" class="optionsoftravelreason">select</option>
-        <option value="work" class="optionsoftravelreason">work</option>
-        <option value="leisure" class="optionsoftravelreason">leisure</option>
-        <option value="medical" class="optionsoftravelreason">medical</option>
+            <option value="select" class="optionsoftravelreason">select</option>
+            <option value="work" class="optionsoftravelreason">work</option>
+            <option value="leisure" class="optionsoftravelreason">leisure</option>
+            <option value="medical" class="optionsoftravelreason">medical</option>
         </select>
 
         <div class="payment"><span style="position: relative;top:15px;">paywith</span></div>
-        
-        
+
+
         <label for="paymentoptions"></label>
-            <select id="paymentoptions" class="paymentoptions">
+        <select id="paymentoptions" class="paymentoptions">
             <option value="select">select</option>
             <option value="cash">cash</option>
             <option value="tranzey wallet">tranzey wallet</option>
-            
-            </select>
+
+        </select>
 
         <button class="searchbutton">search</button>
 
     </div>
     <!-- Ahish Train code END -->
+    <div class="memberdiv"><img class="memberimg"
+            src="https://a.travel-assets.com/travel-assets-manager/destu-40475/BEX-IN-DussehraDiwaliFestivalBreak-HP-Hero-DM-928x398.jpg?impolicy=fcrop&w=1400&h=600&q=mediumHigh"
+            alt="image">
+        <div class="memberbox">
+            <div class="textrand">Members save 25% or more</div>
+            <div class="textrand2">Celebrate Diwali on the beach in Dubai, or take the family to New York or London, for
+                less.</div>
+            <button class="dealsbutton">Unlock your deals</button>
+        </div>
 
+        <!-- </div>
     <div class="footer1">
         <div class="f1"></div>
         <div class="f2">
@@ -194,7 +216,72 @@
             <div class="f32"></div>
         </div>
     </div>
-    <div class="footer2"></div>
+    <div class="footer2"></div> -->
+        <div class="footer">
+            <div class="footerup">
+                <div class="footercolumn">
+                    <h3>About Tranzy</h3>
+                    <ul type="none">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Resources and Policies</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Trust & Safety</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Accessibility Statement</a></li>
+                    </ul>
+                </div>
+
+                <!-- Explore Column -->
+                <div class="footercolumn">
+                    <h3>Explore</h3>
+                    <ul type="none">
+                        <li><a href="#">Write a review</a></li>
+                        <li><a href="#">Add a Place</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Travellers' Choice</a></li>
+                        <li><a href="#">GreenLeaders</a></li>
+                        <li><a href="#">Help Centre</a></li>
+                        <li><a href="#">Travel Articles</a></li>
+                    </ul>
+                </div>
+
+                <!-- Do Business With Us Column -->
+                <div class="footercolumn">
+                    <h3>Do Business With Us</h3>
+                    <ul type="none">
+                        <li><a href="#">Owners & DMO/CVB</a></li>
+                        <li><a href="#">Business Advantage</a></li>
+                        <li><a href="#">Sponsored Placements</a></li>
+                        <li class="something3"><a href="#">Access our Content API</a></li>
+                    </ul>
+                    <p class="something2">Get The App</p>
+                    <ul type="none">
+                        <li><a href="#">iPhone App</a></li>
+                        <li><a href="#">Android App</a></li>
+                    </ul>
+                </div>
+
+                
+                <div class="footercolumn something">
+                    <h3>Tranzy Sites</h3>
+                    <p>Book tours and attraction tickets on Viator</p>
+                </div>
+            </div>
+
+
+        
+
+    </div>
+    <div class="footer-down">
+        <div class="social">
+        <a href="#"><img class="socialimg instaimg"src="images/insta.jpg" alt="insta"></a>
+        <a href="#" ><img class="socialimg"src="images/twitter.jpg" alt=""></a>
+        <a href="#" ><img class="socialimg"src="images/linkedin.jpg" alt=""></a>
+        <a href="#" ><img class="socialimg facebookimg"src="images/facebook.jpg" alt=""></a>
+        </div>
+        <div class="sometext">© 2024 TRANZY PVT. LTD.</div>
+    </div>
 
     <script src="../wdaProject/script.js"></script>
 </body>
