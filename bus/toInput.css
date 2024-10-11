@@ -20,6 +20,8 @@
     width: 100%;
 
     padding-left: 0.4vh;
+
+    opacity: 0.6;
 }
 
 .to_input-box {
@@ -60,4 +62,6 @@
     /* margin-top: 1vh; */
 
     padding-left: 0.4vh;
+
+    opacity: 0.5;
 }
