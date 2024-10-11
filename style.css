@@ -7,7 +7,7 @@
     font-family: sans-serif;
 }
 body{
-    padding:1vh 8vw;
+    padding: 1vh 8vw;
     
 }
 .header{
@@ -173,4 +173,124 @@ body{
 }
 .sign{
     margin-right: 8vw;
+}
+.memberimg{
+    width:100%;
+    margin-top: 10vh;
+    border-radius: 2rem;
+}
+.memberbox{
+    background-color: white;
+    width:350px;
+    height:160px;
+    
+    border-radius:1.5rem;
+    position:relative;
+    top:-430px;
+    left:50px;
+    padding:15px 25px 30px 25px;
+    
+    
+}
+.textrand{
+    font-weight: 550;
+    font-size:32px;
+}
+.textrand2{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size:16px;
+}
+.dealsbutton{
+    margin-top: 12px;
+    background-color:rgb(22, 104, 232);
+    padding:12px;
+    border-radius: 2rem;
+    color: white;
+    border: 1px solid rgb(22, 104, 232) ;
+    font-weight: 550;
+}
+.dealsbutton:hover{
+     background-color:  rgb(15, 80, 200)
+}
+.dealsbutton:active{
+    background-color: rgb(10, 60, 150);
+}
+.footerup{
+    display:flex;
+    background-color:#f2f2f2;
+    margin:-8vw;
+    padding:2vw 10vw;
+}
+.footercolumn{
+    margin-right:2vw
+}
+.something{
+    margin-left: 14vw;
+}
+.footercolumn ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size:16px;
+    font-weight: 400;
+   
+    
+  }
+  .footercolumn ul li a:hover {
+    text-decoration: underline;
+  }
+  .footercolumn h3{
+    color: #333;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 400;
+    margin-bottom:0.3rem;
+  }
+  .footercolumn p{
+    color: #333;
+    text-decoration: none;
+    font-size:16px;
+    font-weight: 400;
+  }
+  .footercolumn ul li{
+    margin-top:6px;
+  }
+  .something3{
+    margin-bottom:5px;
+  }
+  .something2{
+    margin-bottom: 0px;
+  }
+.footer-down{
+    width:100%;
+    margin:-8vw;
+    background-color: black;
+    height:18vh;
+    position: absolute;
+    bottom:-110vh;
+    display:flex;
+    align-items: center;
+    
+}
+.sometext{
+    color:white;
+    position:relative;
+    left:70vw;
+}
+.socialimg{
+    width:40px;
+    height:40px;
+    margin:15px
+  
+}
+.social{
+    position: absolute;
+    left:9vw;
+}
+.facebookimg{
+    width:20px;
+}
+.instaimg{
+    width:45px;
+    height:45px;
 }
