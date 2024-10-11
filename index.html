@@ -14,17 +14,18 @@
     <link rel="stylesheet" href="../wdaProject/bus/style.css">
     <link rel="stylesheet" href="../wdaProject/bus/toInput.css">
     <link rel="stylesheet" href="../wdaProject/bus/travelDateInput.css">
+    <link rel="stylesheet" href="../wdaProject/bus/reasonForTravelling.css">
     <!-- Shreyansh CSS links END -->
 
     <!-- Ahish CSS links -->
-     <link rel="stylesheet" href="../wdaProject/train.css">
+    <link rel="stylesheet" href="../wdaProject/train.css">
     <!-- Ahish CSS links END -->
 </head>
 
 <body>
-    
+
     <div class="header">
-        
+
         <div class="logo"><img src="images/logo.jpg" alt="logo"></div>
         <div class="navbutton">
             <button class="discover navitem">Discover</button>
@@ -108,23 +109,35 @@
 
                 <div class="bottom-content">
                     <div class="reason-for-travel_area">
-                        <button class="reason-for-travel_box">
-                            <div>
-                                REASON
+                        <div class="reason-for-travel">
+                            <button class="reason-for-travel_box">
+                                Reason for travel
+                            </button>
+                            <div class="reason-for-travel_button">
+                                <select class="busOptions">
+                                    <option>Leisure</option>
+                                    <option>Study</option>
+                                    <option>Medical</option>
+                                </select>
                             </div>
-                        </button>
+                        </div>
                     </div>
                     <div class="promocode_area">
                         <button class="promocode_box">
-                            <div>
-                                PROMOCODE
-                            </div>
+                            <label class="promocode_text">
+                                <div class="align font fontSize">
+                                    Promocode
+                                </div>
+                                <input id="promocode_enter">
+                                <!-- ___ -->
+                                </input>
+                            </label>
                         </button>
                     </div>
                     <div class="search_area">
                         <button class="search_box">
-                            <div>
-                                SEARCH
+                            <div class="font fontSize">
+                                Search
                             </div>
                         </button>
                     </div>
@@ -132,51 +145,50 @@
             </div>
         </div>
     </div>
-    </div>
     <!-- Shreyansh Bus code END -->
 
     <!-- Ahish Train code -->
     <div class="masterdiv"><!--this is the master div-->
-        
+
         <input type="text" class="from_textbox" placeholder="from">
 
         <input type="text" class="to_textbox" placeholder="to">
 
-        <input type="date" class="date" >
+        <input type="date" class="date">
 
         <input type="number" class="passenger" min="1" placeholder="     number of passenger">
-        
-            <label for="classintrain"></label>
-            <select id="classintrain" class="classintrain">
+
+        <label for="classintrain"></label>
+        <select id="classintrain" class="classintrain">
             <option value="option1">Option 1</option>
             <option value="option2">Option 2</option>
             <option value="option3">Option 3</option>
             <option value="option4">Option 4</option>
-            </select>
+        </select>
 
         <br><br>
-        
+
         <div class="travelfor"><span style="position: relative; top:17px;">I am travelling for</span></div>
-        
-        
+
+
         <label for="travelreason"></label>
         <select id="travelreason" class="travelreason">
-        <option value="select" class="optionsoftravelreason">select</option>
-        <option value="work" class="optionsoftravelreason">work</option>
-        <option value="leisure" class="optionsoftravelreason">leisure</option>
-        <option value="medical" class="optionsoftravelreason">medical</option>
+            <option value="select" class="optionsoftravelreason">select</option>
+            <option value="work" class="optionsoftravelreason">work</option>
+            <option value="leisure" class="optionsoftravelreason">leisure</option>
+            <option value="medical" class="optionsoftravelreason">medical</option>
         </select>
 
         <div class="payment"><span style="position: relative;top:15px;">paywith</span></div>
-        
-        
+
+
         <label for="paymentoptions"></label>
-            <select id="paymentoptions" class="paymentoptions">
+        <select id="paymentoptions" class="paymentoptions">
             <option value="select">select</option>
             <option value="cash">cash</option>
             <option value="tranzey wallet">tranzey wallet</option>
-            
-            </select>
+
+        </select>
 
         <button class="searchbutton">search</button>
 

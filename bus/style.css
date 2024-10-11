@@ -1,25 +1,23 @@
-/* body {
+.font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fontSize {
+    font-size: 18px;
+}
+
+body {
     margin: 0;
     padding: 0;
-} */
-
-.contentArea {
-    display: none;
-    /* display: flex; */
 }
 
 .busMainArea {
     /* height: 30vh;
     width: 95vw; */
     /* width: 90vw; */
-
-    width: 96%;
-
     display: grid;
     grid-template-rows: 1vh 15vh 8vh;
     grid-template-columns: 3vw 15vw 10vw 15vw 10vw 10vw 10vw 3vw;
-
-    justify-content: center;
 
     /* width: 66vw; */
 
@@ -33,10 +31,6 @@
     padding: 20px;
 
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.busMainArea {
-    /* display: none; */
 }
 
 .from {
@@ -120,7 +114,7 @@
 }
 
 .reason-for-travel_area {
-    grid-column: 1 / 5;
+    grid-column: 1 / 4;
 
     /* background-color: lavender; */
 
@@ -153,6 +147,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* grid-row: 1 / 4;
-    grid-column: 1 / 9; */
+    grid-row: 1 / 4;
+    grid-column: 1 / 9;
 }
