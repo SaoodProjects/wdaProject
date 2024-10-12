@@ -175,6 +175,7 @@ body{
     margin-right: 8vw;
 }
 .memberimg{
+   
     width:100%;
     margin-top: 10vh;
     border-radius: 2rem;
@@ -293,4 +294,29 @@ body{
 .instaimg{
     width:45px;
     height:45px;
+}
+.populardtext{
+    text-align: center;
+    margin:5vh;
+    font-size:24px;
+}
+.destinationimg{
+    display:flex;
+    justify-content: space-between;
+}
+.destinationimages{
+    border-radius: 1rem;
+    
+    width:220px;
+}
+.goatext{
+    text-align: center;
+    position:relative;
+    top:-35px;
+    color: white;
+    font-size:24px;
+    font-weight:400
+}
+.destinationimages:hover{
+    transform:scale(1.07);
 }
