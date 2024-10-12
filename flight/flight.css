@@ -1,6 +1,6 @@
 .a {
     background-color: aliceblue;
-    height: 450px;
+    height: 320px;
     width: 1200px;
     /* margin-top: 80px; */
     /* margin-left: 80px; */
@@ -29,6 +29,7 @@
     font-size: larger;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    display:none;
 }
 
 .c {
