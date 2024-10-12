@@ -6,7 +6,7 @@ let contents = {
     trains: document.querySelector(".masterdiv"),
     flights: document.querySelector(".center"),
     hotels: document.querySelector(".hide"),
-    cab: document.querySelector(".masterdiv_c")
+    cabs: document.querySelector(".masterdiv_c")
 }
 
 
@@ -40,7 +40,7 @@ services.forEach((service) => {
             }
             else {
                 waiting.textContent = "this is airport transfer";
-                contents.cab.style.display = "block";
+                contents.cabs.style.display = "block";
             }
         }
     );

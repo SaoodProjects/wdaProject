@@ -175,6 +175,7 @@ body{
     margin-right: 8vw;
 }
 .memberimg{
+   
     width:100%;
     margin-top: 10vh;
     border-radius: 2rem;
@@ -267,7 +268,7 @@ body{
     background-color: black;
     height:18vh;
     position: absolute;
-    bottom:-110vh;
+    bottom:-315vh;
     display:flex;
     align-items: center;
     
@@ -294,3 +295,100 @@ body{
     width:45px;
     height:45px;
 }
+.populardtext{
+    text-align: center;
+    margin:5vh;
+    font-size:24px;
+}
+.destinationimg{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.destinationimages{
+    border-radius: 1rem;
+    
+    width:190px;
+}
+.goatext{
+    text-align: center;
+    position:relative;
+    top:-35px;
+    color: white;
+    font-size:24px;
+    font-weight:400
+}
+.destinationimages:hover{
+    transform:scale(1.07);
+}
+/* our services start
+.otherservices{
+    width:100%;
+    height:150vh;
+    background-color: rgb(241, 241, 241);
+    border-radius: 2rem;
+    padding-top:20px;
+    
+}
+.ourpart1 , .ourpart2{
+    display:flex;
+    width:100%;
+    height:65vh;
+    background-color:red ;
+}
+.otherservicetextup{
+    text-align:center;
+    font-size:24px;
+    color: #222222;
+    margin-bottom:30px;
+    
+} */
+/*our services end*/
+/* ai part start*/
+.services-section {
+    width: 100%; /* Full width within the body's padding */
+    padding: 20px 0;
+}
+
+.services-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.service-card {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 180px;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+    transition: background 0.3s ease;
+}
+
+.service-card h3 {
+    font-size: 18px;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.5); /* Slightly dark background for better text visibility */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Add hover effect */
+.service-card:hover {
+    background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.6)), var(--card-bg);
+    transform:scale(1.07);
+}
+/* ai part end*/
