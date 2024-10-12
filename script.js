@@ -3,7 +3,8 @@ let services = document.querySelectorAll(".serviceitems");
 
 let contents = {
     buses: document.querySelector(".contentArea"),
-    trains: document.querySelector(".masterdiv")
+    trains: document.querySelector(".masterdiv"),
+    flights: document.querySelector(".center")
 }
 
 
@@ -21,6 +22,7 @@ services.forEach((service) => {
 
             if(service.textContent === "Flights"){
                 waiting.textContent = "Find the best flights";
+                contents.flights.style.display = "block";
             }
             else if(service.textContent === "Hotels"){
                 waiting.textContent = "this is hotel";
