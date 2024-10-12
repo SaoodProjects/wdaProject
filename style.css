@@ -309,6 +309,8 @@ body{
     border-radius: 1rem;
     
     width:190px;
+
+    transition: 0.15s;
 }
 .goatext{
     text-align: center;
@@ -320,6 +322,7 @@ body{
 }
 .destinationimages:hover{
     transform:scale(1.07);
+    cursor: pointer;
 }
 /* our services start
 .otherservices{
@@ -376,6 +379,7 @@ body{
     align-items: flex-end;
     padding: 15px;
     transition: background 0.3s ease;
+    transition: 0.15s;
 }
 
 .service-card h3 {
@@ -390,6 +394,8 @@ body{
 .service-card:hover {
     background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.6)), var(--card-bg);
     transform:scale(1.07);
+    cursor: pointer;
+    
 }
 /* ai part end*/
 .travelimg img{

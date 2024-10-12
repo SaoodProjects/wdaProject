@@ -4,7 +4,9 @@ let services = document.querySelectorAll(".serviceitems");
 let contents = {
     buses: document.querySelector(".contentArea"),
     trains: document.querySelector(".masterdiv"),
-    flights: document.querySelector(".center")
+    flights: document.querySelector(".center"),
+    hotels: document.querySelector(".dashboard-container"),
+    cabs: document.querySelector(".masterdiv_c")
 }
 
 
@@ -26,6 +28,7 @@ services.forEach((service) => {
             }
             else if(service.textContent === "Hotels"){
                 waiting.textContent = "this is hotel";
+                contents.hotels.style.display = "flex";
             }
             else if(service.textContent === "Trains"){
                 waiting.textContent = "this is trains";
@@ -37,6 +40,7 @@ services.forEach((service) => {
             }
             else {
                 waiting.textContent = "this is airport transfer";
+                contents.cabs.style.display = "inline-block";
             }
         }
     );
