@@ -1,8 +1,9 @@
 .hotel {
     margin-left: 650px;
-    color: blue;
+    color: black;
     margin-top: 100px;
-    text-size-adjust: larger;
+    font-size: 35px;
+
 }
 
 .dashboard-container {
@@ -17,12 +18,16 @@
     height: 300px;
 }
 
+.dashboard-container {
+    display: none;
+}
+
 .dashboard-box {
     width: 200px;
     height: 100px;
     margin: 2px;
     padding: 10px;
-    background-color: white;
+    background-color: rgb(237, 237, 122);
     border-radius: 5px;
     text-align: center;
     margin-top: 100px;
@@ -39,8 +44,7 @@
 }
 
 .dashboard-box button {
-    background-color: #4CAF50;
-    /* Green */
+    background-color: #4caf50;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -55,4 +59,8 @@
 
 #color {
     color: black;
+}
+
+button:hover {
+    transform: scale(1.1);
 }
