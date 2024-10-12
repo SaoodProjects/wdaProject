@@ -51,6 +51,6 @@ let signin = document.querySelector(".signin");
 signin.addEventListener(
     "click",
     () => {
-        window.location.href = "https://shreyansh-patil.github.io/tranzyLoginPage/";
+        window.open("https://shreyansh-patil.github.io/tranzyLoginPage/", "_blank");
     }
 );
