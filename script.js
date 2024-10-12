@@ -45,3 +45,12 @@ services.forEach((service) => {
         }
     );
 });
+
+// redirect to login page
+let signin = document.querySelector(".signin");
+signin.addEventListener(
+    "click",
+    () => {
+        window.location.href = "https://shreyansh-patil.github.io/tranzyLoginPage/";
+    }
+);
