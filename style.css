@@ -392,3 +392,9 @@ body{
     transform:scale(1.07);
 }
 /* ai part end*/
+.travelimg img{
+    width:100%;
+    margin:20px 0px;
+    border-radius: 2rem;
+
+}
