@@ -23,23 +23,23 @@ services.forEach((service) => {
             hideAll();
 
             if(service.textContent === "Flights"){
-                waiting.textContent = "Find the best flights";
+                waiting.textContent = "Take Off with the Best Deals on Flights";
                 contents.flights.style.display = "block";
             }
             else if(service.textContent === "Hotels"){
-                waiting.textContent = "this is hotel";
+                waiting.textContent = "Best stays here";
                 contents.hotels.style.display = "flex";
             }
             else if(service.textContent === "Trains"){
-                waiting.textContent = "this is trains";
+                waiting.textContent = "Comfortable Train Journeys, Booked for You";
                 contents.trains.style.display = "block";
             }
             else if(service.textContent === "Buses"){
-                waiting.textContent = "this is bus";
+                waiting.textContent = "Affordable Bus Tickets for Every Destination";
                 contents.buses.style.display = "block";
             }
             else {
-                waiting.textContent = "this is airport transfer";
+                waiting.textContent = "Stress-Free Airport Transfers";
                 contents.cabs.style.display = "inline-block";
             }
         }
