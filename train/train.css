@@ -14,7 +14,15 @@ body {
     position: relative;
     top: 0;
     bottom: 0;
-    background-color:rgb(250, 196, 196);
+    /* background-color:gainsboro; */
+    background-color: #adadad5f;
+
+    border-radius: 2rem;
+    padding-bottom: 4.7rem;
+
+    border-color: gray;
+    border-style: solid;
+
 }
 
 .masterdiv {
@@ -31,7 +39,7 @@ body {
     font-size: larger;
     transition: transform 0.1s ease;
     position: relative;
-    background-color: rgb(138, 223, 240);
+    background-color: #ebe9ee;
 }
 .from_textbox{
     margin-right:0px;
@@ -76,7 +84,9 @@ body {
     z-index:0;
     border:0.3px solid rgba(138,138,188);
     transition: transform 0.1s ease;
-    background-color: rgb(138, 223, 240);
+    background-color: #ebe9ee;
+
+    color: #757575;
 }
 
 .date:hover{
@@ -94,12 +104,12 @@ body {
     height:99.5px;
     transition: transform 0.1s ease;
     width:170px;
-    background-color: rgb(138, 223, 240);
+    background-color: #ebe9ee;
 }
 
 .passenger:hover{
     transform:scale(1.05);
-    border:0.3px solid rgba(138,138,188);
+    border:0.3px solid #ebe9ee;
     z-index:2;
     border-radius:20px;
 }
@@ -114,9 +124,9 @@ body {
     width:150px;
     border-top-right-radius:20px;
     border-bottom-right-radius:20px;
-    background-color: rgb(138, 223, 240);
+    background-color: #ebe9ee;
     
-    
+    color: #757575;
 }
 
 .classintrain:hover{
@@ -136,7 +146,7 @@ body {
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
     font-size: 20px;
-    background-color: rgb(246, 119, 119);
+    background-color: gainsboro;
     
     
 }
@@ -163,7 +173,7 @@ body {
 }
 
 .optionsoftravelreason{
-    background-color:rgb(190, 226, 233);
+    background-color:#ebe9ee;
     font-size: 20px;
 }
 
@@ -178,7 +188,7 @@ body {
     width:150px;
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
-    background-color: rgb(246, 119, 119);
+    background-color: gainsboro;
     font-size:20px;
 }
 

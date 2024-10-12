@@ -5,7 +5,7 @@
     border-bottom-left-radius: 5vh;
     color: #000;
     padding-right: 0;
-    margin-right: 0
+    margin-right: 0;
 }
 
 .reason-for-travel_box,
@@ -13,16 +13,16 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .reason-for-travel_buttonn:hover {
     cursor: pointer;
-    background-color: rgba(109, 255, 76, .61)
+    background-color: rgba(109, 255, 76, .61);
 }
 
 .promocode_box {
-    background-color: #6dff4c;
+    background-color: rgba(67, 67, 67, .299);
     padding-top: 2vh;
     padding-bottom: 2vh;
     width: 90%;
@@ -32,22 +32,22 @@
     justify-content: center;
     align-items: center;
     color: #000;
-    box-shadow: 0 .3vh 8px rgba(0, 0, 0, .2)
+    box-shadow: 0 .3vh 8px rgba(0, 0, 0, .2);
 }
 
 .promocode_box:hover {
-    background-color: rgba(109, 255, 76, .61);
-    cursor: pointer
+    background-color: rgba(139, 139, 139, 0.299);
+    cursor: pointer;
 }
 
 .promocode_box:active {
     opacity: .8;
     cursor: pointer;
-    transform: translateY(2px)
+    transform: translateY(2px);
 }
 
 .search_box {
-    background-color: #6dff4c;
+    background-color: rgba(67, 67, 67, .299);
     padding-top: 2vh;
     padding-bottom: 2vh;
     width: 90%;
@@ -57,29 +57,29 @@
     justify-content: center;
     align-items: center;
     color: #000;
-    box-shadow: 0 .3vh 8px rgba(0, 0, 0, .2)
+    box-shadow: 0 .3vh 8px rgba(0, 0, 0, .2);
 }
 
 .search_box:hover {
-    background-color: rgba(109, 255, 76, .61);
-    cursor: pointer
+    background-color: rgba(139, 139, 139, 0.299);
+    cursor: pointer;
 }
 
 .search_box:active {
     opacity: .8;
     cursor: pointer;
-    transform: translateY(2px)
+    transform: translateY(2px);
 }
 
 .reason-button {
     border: hidden;
     height: 8vh;
-    width: 100%
+    width: 100%;
 }
 
 .from-content {
     width: 90%;
-    height: 90%
+    height: 90%;
 }
 
 .from_top-text-box {
@@ -87,21 +87,21 @@
     width: 100%;
     height: 20%;
     margin-top: 1vh;
-    margin-bottom: .4vh
+    margin-bottom: .4vh;
 }
 
 .from_top-text {
     justify-content: left;
     width: 100%;
     padding-left: .2vh;
-    opacity: .6
+    opacity: .6;
 }
 
 .from_input-box {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 #from_input {
@@ -111,25 +111,25 @@
     background-color: transparent;
     padding: 0;
     margin: 0;
-    font-size: 4vh
+    font-size: 4vh;
 }
 
 #from_input:focus {
     outline-style: none;
-    box-shadow: none
+    box-shadow: none;
 }
 
 .from_bottom-text {
     width: 100%;
     justify-content: left;
     padding-left: .2vh;
-    opacity: .5
+    opacity: .5;
 }
 
 .busMainArea {
     grid-template-rows: 10vh 15vh 8vh;
     grid-template-columns: 3vw 15vw 10vw 15vw 10vw 12vw 12vw 3vw;
-    background-color: wheat
+    background-color: wheat;
 }
 
 .box1,
@@ -137,25 +137,25 @@
 .box3 {
     background-color: red;
     border: solid;
-    display: flex
+    display: flex;
 }
 
 .box1 {
-    grid-column: 1/4
+    grid-column: 1/4;
 }
 
 .box1,
 .box2 {
-    grid-row: 1/4
+    grid-row: 1/4;
 }
 
 .box2 {
-    grid-column: 4/7
+    grid-column: 4/7;
 }
 
 .box3 {
     grid-row: 1/4;
-    grid-column: 7/10
+    grid-column: 7/10;
 }
 
 .reason-for-travel {
@@ -166,7 +166,7 @@
     height: 75%;
     width: 100%;
     box-shadow: 0 .3vh 8px rgba(0, 0, 0, .2);
-    display: none
+    display: none;
 }
 
 #promocode_enter {
@@ -175,24 +175,24 @@
     width: 100%;
     border-top: hidden;
     border-left: hidden;
-    border-right: hidden
+    border-right: hidden;
 }
 
 #promocode_enter:focus {
     outline-style: none;
-    box-shadow: none
+    box-shadow: none;
 }
 
 .promocode_text {
     display: flex;
     justify-content: space-between;
-    padding: 1.2vh 1.2vh 1.4vh
+    padding: 1.2vh 1.2vh 1.4vh;
 }
 
 .align {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end
+    align-items: flex-end;
 }
 
 .busOptions {
@@ -207,30 +207,30 @@
     border-width: 2px;
     border-left: none;
     padding-left: 20px;
-    padding-right: 20px
+    padding-right: 20px;
 }
 
 .busOptions:hover {
     background-color: rgba(109, 255, 76, .61);
-    cursor: pointer
+    cursor: pointer;
 }
 
 .busOptions:active {
     transform: translateY(2px);
-    opacity: .8
+    opacity: .8;
 }
 
 .busOptions:focus {
     outline-style: none;
-    box-shadow: none
+    box-shadow: none;
 }
 
 .font {
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
 .fontSize {
-    font-size: 18px
+    font-size: 18px;
 }
 
 .busMainArea {
@@ -242,7 +242,7 @@
     border: 2px solid rgba(67, 67, 67, .299);
     margin-top: 2vh;
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .2)
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 }
 
 .from {
@@ -255,13 +255,13 @@
     border-top-left-radius: 2vh;
     border-bottom-left-radius: 2vh;
     border-style: solid;
-    border-right: none
+    border-right: none;
 }
 
 .from:hover {
     scale: 1.02;
     cursor: pointer;
-    box-shadow: 0 .6vh 8px rgba(0, 0, 0, .2)
+    box-shadow: 0 .6vh 8px rgba(0, 0, 0, .2);
 }
 
 .to {
@@ -271,13 +271,13 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(67, 67, 67, .299);
-    border-style: solid
+    border-style: solid;
 }
 
 .to:hover {
     scale: 1.02;
     cursor: pointer;
-    box-shadow: 0 .6vh 8px rgba(0, 0, 0, .2)
+    box-shadow: 0 .6vh 8px rgba(0, 0, 0, .2);
 }
 
 .travelDate {
@@ -291,13 +291,13 @@
     border-bottom-right-radius: 2vh;
     border-style: solid;
     border-color: #000;
-    border-left: none
+    border-left: none;
 }
 
 .travelDate:hover {
     scale: 1.02;
     cursor: pointer;
-    box-shadow: 0 .6vh 8px rgba(0, 0, 0, .2)
+    box-shadow: 0 .6vh 8px rgba(0, 0, 0, .2);
 }
 
 .bottom-content {
@@ -306,43 +306,43 @@
     display: grid;
     grid-template-rows: 8vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    padding-top: 1vh
+    padding-top: 1vh;
 }
 
 .reason-for-travel_area {
-    grid-column: 1/4
+    grid-column: 1/4;
 }
 
 .promocode_area,
 .reason-for-travel_area {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .promocode_area {
-    grid-column: -6/-3
+    grid-column: -6/-3;
 }
 
 .search_area {
-    grid-column: -3/-1
+    grid-column: -3/-1;
 }
 
 .background,
 .search_area {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .background {
     grid-row: 1/4;
-    grid-column: 1/9
+    grid-column: 1/9;
 }
 
 .to-content {
     width: 90%;
-    height: 90%
+    height: 90%;
 }
 
 .to_top-text-box {
@@ -350,7 +350,7 @@
     width: 100%;
     height: 20%;
     margin-top: 1vh;
-    margin-bottom: .3vh
+    margin-bottom: .3vh;
 }
 
 .to_top-text {
@@ -358,14 +358,14 @@
     justify-content: left;
     width: 100%;
     padding-left: .4vh;
-    opacity: .6
+    opacity: .6;
 }
 
 .to_input-box {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 #to_input {
@@ -373,12 +373,12 @@
     height: 5vh;
     border: none;
     background-color: transparent;
-    font-size: 4vh
+    font-size: 4vh;
 }
 
 #to_input:focus {
     outline-style: none;
-    box-shadow: none
+    box-shadow: none;
 }
 
 .to_bottom-text {
@@ -386,12 +386,12 @@
     display: flex;
     justify-content: left;
     padding-left: .4vh;
-    opacity: .5
+    opacity: .5;
 }
 
 .travelDate-content {
     width: 90%;
-    height: 90%
+    height: 90%;
 }
 
 .travelDate_top-text-box {
@@ -401,7 +401,7 @@
     margin-top: 1vh;
     margin-bottom: .5vh;
     margin-left: .2vh;
-    padding-right: .2vh
+    padding-right: .2vh;
 }
 
 .travelDate_top-text {
@@ -409,14 +409,14 @@
     justify-content: left;
     width: 100%;
     padding-left: .4vh;
-    opacity: .6
+    opacity: .6;
 }
 
 .travelDate_input-box {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 #travelDate_input {
@@ -425,12 +425,12 @@
     border: none;
     background-color: transparent;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4vh
+    font-size: 4vh;
 }
 
 #travelDate_input:focus {
     outline-style: none;
-    box-shadow: none
+    box-shadow: none;
 }
 
 .travelDate_bottom-text {
@@ -438,5 +438,5 @@
     display: flex;
     justify-content: left;
     padding-left: .8vh;
-    opacity: .5
+    opacity: .5;
 }
